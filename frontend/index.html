@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Music Sync</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/static/styles.css" />
+  <meta http-equiv="Permissions-Policy" content="autoplay=(self)">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Music Sync</h1>
+      <div id="roleBadge" class="badge">Listener</div>
+    </header>
+
+    <section class="controls">
+      <div class="row">
+        <label for="trackUrl">Track URL</label>
+        <input id="trackUrl" type="text" placeholder="https://example.com/song.mp3 or /media/song.mp3" />
+        <button id="setTrackBtn">Set Track</button>
+      </div>
+
+      <div class="row">
+        <button id="playPauseBtn" disabled>Play</button>
+        <label for="seekRange" class="slider-label">Seek</label>
+        <input id="seekRange" type="range" min="0" max="100" value="0" step="0.01" />
+      </div>
+
+      <div class="row">
+        <label for="volumeRange" class="slider-label">Volume</label>
+        <input id="volumeRange" type="range" min="0" max="1" step="0.01" value="1" />
+        <label class="host-check"><input id="wantHost" type="checkbox" /> I am the host</label>
+      </div>
+
+      <div class="row info">
+        <div>Latency: <span id="latencyMs">--</span> ms</div>
+        <div>Drift: <span id="driftMs">--</span> ms</div>
+        <div>Track: <span id="trackName">none</span></div>
+        <div>Status: <span id="statusText">disconnected</span></div>
+      </div>
+    </section>
+
+    <audio id="audio" crossorigin="anonymous"></audio>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
