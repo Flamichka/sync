@@ -1,0 +1,101 @@
+:root {
+  color-scheme: dark;
+  --bg: #111418;
+  --panel: #1a1f24;
+  --text: #e6edf3;
+  --muted: #9aa5b1;
+  --accent: #4cc2ff;
+  --host: #2ecc71;
+  --listener: #f39c12;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; }
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+h1 { margin: 0; font-size: 1.4rem; }
+
+.badge {
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+  background: var(--panel);
+  border: 1px solid #2a2f36;
+}
+.badge.host { color: var(--host); border-color: var(--host); }
+.badge.listener { color: var(--listener); border-color: var(--listener); }
+
+.controls {
+  background: var(--panel);
+  border: 1px solid #2a2f36;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 8px 0;
+  flex-wrap: wrap;
+}
+
+label { color: var(--muted); }
+input[type="text"] {
+  flex: 1;
+  min-width: 200px;
+  padding: 8px;
+  background: #0d1014;
+  color: var(--text);
+  border: 1px solid #2a2f36;
+  border-radius: 6px;
+  outline: none;
+}
+button {
+  padding: 8px 12px;
+  background: #0d1014;
+  color: var(--text);
+  border: 1px solid #2a2f36;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.slider-label { width: 40px; }
+input[type="range"] { flex: 1; }
+
+.row.info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 8px;
+  color: var(--muted);
+}
+
+audio { width: 100%; margin-top: 8px; }
+.host-check { margin-left: auto; }
+
+/* Hide controls on listener-only pages (base / route) */
+.listener-only .controls { display: none; }
+
+.clients { margin-top: 16px; }
+.clients h2 { font-size: 1rem; margin: 0 0 8px 0; color: var(--muted); }
+.client-list { list-style: none; padding: 0; margin: 0; }
+.client-list li { padding: 6px 8px; border: 1px solid #2a2f36; border-radius: 6px; margin-bottom: 6px; background: #0d1014; }
