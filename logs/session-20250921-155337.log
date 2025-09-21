@@ -1,0 +1,10 @@
+2025-09-21 15:53:37 | INFO | app.core.logging_config | Logging initialised. Session file: logs\session-20250921-155337.log
+2025-09-21 15:53:37 | INFO | harmonycast.app | Application startup. Logging to logs\session-20250921-155337.log
+2025-09-21 15:53:37 | INFO | harmonycast.app | FastAPI startup event triggered
+2025-09-21 15:53:37 | INFO | harmonycast.listeners | Listener snapshot task started interval=3.0s
+2025-09-21 15:53:44 | INFO | harmonycast.app | Client connected id=9f052e97-ddde-454d-b189-ec16bbb1f61d ip=25.4.68.162
+2025-09-21 15:56:59 | INFO | harmonycast.app | Client 9f052e97-ddde-454d-b189-ec16bbb1f61d disconnected
+2025-09-21 15:56:59 | INFO | harmonycast.listeners | Client disconnected id=9f052e97-ddde-454d-b189-ec16bbb1f61d ip=25.4.68.162
+2025-09-21 15:56:59 | INFO | harmonycast.app | FastAPI shutdown event triggered
+2025-09-21 15:56:59 | INFO | harmonycast.listeners | Listener snapshot task cancelled
+2025-09-21 15:56:59 | INFO | harmonycast.app | Shutdown complete

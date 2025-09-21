@@ -1,53 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Music Sync Host</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="/static/styles.css" />
-  <meta http-equiv="Permissions-Policy" content="autoplay=(self)">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HarmonyCast | Host Control</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
 </head>
-<body>
-  <div class="container">
-    <header>
-      <h1>Music Sync - Host</h1>
-    </header>
+<body class="page page--host">
+    <section class="host-panel">
+        <h1>Host Control</h1>
+        <p id="host-video-title">No video loaded</p>
 
-    <section class="controls">
-      <div class="row">
-        <label for="trackUrl">Track URL</label>
-        <input id="trackUrl" type="text" placeholder="https://example.com/song.mp3 or /media/song.mp3" />
-        <button id="setTrackBtn">Set Track</button>
-      </div>
+        <div class="control-grid">
+            <div class="video-input">
+                <input id="video-url" type="text" placeholder="Paste YouTube URL or ID" />
+                <button id="load-video">Load Video</button>
+            </div>
 
-      <div class="row">
-        <button id="playPauseBtn" disabled>Play</button>
-        <label for="seekRange" class="slider-label">Seek</label>
-        <input id="seekRange" type="range" min="0" max="100" value="0" step="0.01" />
-      </div>
+            <div class="timeline">
+                <span id="host-elapsed">0:00</span>
+                <input type="range" id="seek-slider" min="0" max="1000" value="0" />
+                <span id="host-duration">0:00</span>
+            </div>
 
-      <div class="row">
-        <label for="volumeRange" class="slider-label">Volume</label>
-        <input id="volumeRange" type="range" min="0" max="1" step="0.01" value="1" />
-        <label class="host-check"><input id="wantHost" type="checkbox" checked /> I am the host</label>
-      </div>
+            <div class="action-row" style="display:flex; gap:1rem; flex-wrap:wrap;">
+                <button id="play-btn">Play</button>
+                <button id="pause-btn">Pause</button>
+                <button id="resync-btn">Force Resync</button>
+            </div>
 
-      <div class="row info">
-        <div>Latency: <span id="latencyMs">--</span> ms</div>
-        <div>Drift: <span id="driftMs">--</span> ms</div>
-        <div>Track: <span id="trackName">none</span></div>
-        <div>Status: <span id="statusText">disconnected</span></div>
-      </div>
+            <div class="host-volume">
+                <label for="host-volume-slider">Host Volume</label>
+                <input type="range" id="host-volume-slider" min="0" max="100" value="70" />
+            </div>
+
+            <div class="status-board">
+                <div class="stat">
+                    <div class="label">Playback</div>
+                    <div class="value" id="playback-status">Idle</div>
+                </div>
+                <div class="stat">
+                    <div class="label">Video ID</div>
+                    <div class="value" id="video-id">—</div>
+                </div>
+                <div class="stat">
+                    <div class="label">Host Latency</div>
+                    <div class="value" id="host-latency">0 ms</div>
+                </div>
+                <div class="stat">
+                    <div class="label">WebSocket</div>
+                    <div class="value" id="ws-status">Disconnected</div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <audio id="audio" crossorigin="anonymous"></audio>
-
-    <section class="clients">
-      <h2>Listeners</h2>
-      <ul id="clientsList" class="client-list"></ul>
+    <section class="listener-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Listener ID</th>
+                    <th>IP</th>
+                    <th>Status</th>
+                    <th>Player Time</th>
+                    <th>Volume</th>
+                    <th>Latency</th>
+                    <th>Buffer</th>
+                    <th>Quality</th>
+                    <th>Last Report</th>
+                </tr>
+            </thead>
+            <tbody id="listener-body">
+                <tr>
+                    <td colspan="9">No listeners connected yet.</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
-  </div>
 
-  <script src="/static/script.js"></script>
+    <div id="host-player"></div>
+    <div class="error-toast" id="error-toast"></div>
+
+    <script>
+        window.APP_CONFIG = {
+            wsEndpoint: ((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host + '/ws/host'),
+            metadataEndpoint: location.origin + '/api/video/metadata'
+        };
+    </script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="/assets/host.js"></script>
 </body>
 </html>
+
+

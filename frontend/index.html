@@ -1,48 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Music Sync</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="/static/styles.css" />
-  <meta http-equiv="Permissions-Policy" content="autoplay=(self)">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HarmonyCast | Listener</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
 </head>
-<body class="listener-only">
-  <div class="container">
-    <header>
-      <h1>NOW PLAYING</h1>
-    </header>
+<body class="page page--client">
+    <main class="now-playing">
+        <h1>Now Playing</h1>
+        <p id="video-title">Waiting for the host...</p>
+        <div class="timeline">
+            <span id="elapsed">0:00</span>
+            <progress id="progress" value="0" max="1"></progress>
+            <span id="duration">0:00</span>
+        </div>
+        <div class="volume-control">
+            <label for="volume-slider">Volume</label>
+            <input type="range" id="volume-slider" min="0" max="100" value="70" />
+        </div>
+        <div class="badge" id="sync-status">Syncing…</div>\n        <button id="resume-playback" class="resume-button" hidden>Tap to enable audio</button>
+    </main>
 
-    <section class="controls">
-      <div class="row">
-        <label for="trackUrl">Track URL</label>
-        <input id="trackUrl" type="text" placeholder="https://example.com/song.mp3 or /media/song.mp3" />
-        <button id="setTrackBtn">Set Track</button>
-      </div>
+    <div id="player"></div>
 
-      <div class="row">
-        <button id="playPauseBtn" disabled>Play</button>
-        <label for="seekRange" class="slider-label">Seek</label>
-        <input id="seekRange" type="range" min="0" max="100" value="0" step="0.01" />
-      </div>
+    <div class="error-toast" id="error-toast"></div>
 
-      <div class="row">
-        <label for="volumeRange" class="slider-label">Volume</label>
-        <input id="volumeRange" type="range" min="0" max="1" step="0.01" value="1" />
-        <label class="host-check"><input id="wantHost" type="checkbox" /> I am the host</label>
-      </div>
-
-      <div class="row info">
-        <div>Latency: <span id="latencyMs">--</span> ms</div>
-        <div>Drift: <span id="driftMs">--</span> ms</div>
-        <div>Track: <span id="trackName">none</span></div>
-        <div>Status: <span id="statusText">disconnected</span></div>
-      </div>
-    </section>
-
-    <audio id="audio" crossorigin="anonymous"></audio>
-  </div>
-
-  <script src="/static/script.js"></script>
+    <script>
+        window.APP_CONFIG = {
+            wsEndpoint: ((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host + '/ws/client')
+        };
+    </script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="/assets/client.js"></script>
 </body>
 </html>
+
+
+

@@ -1,0 +1,172 @@
+2025-09-21 16:35:19 | INFO | app.core.logging_config | Logging initialised. Session file: logs\session-20250921-163519.log
+2025-09-21 16:35:19 | INFO | harmonycast.app | Application startup. Logging to logs\session-20250921-163519.log
+2025-09-21 16:35:19 | INFO | harmonycast.app | FastAPI startup event triggered
+2025-09-21 16:35:19 | INFO | harmonycast.listeners | Listener snapshot task started interval=3.0s
+2025-09-21 16:35:23 | INFO | harmonycast.app | Host connected id=f65e4299-8755-4608-8929-e70a3e86f655 ip=25.4.68.162
+2025-09-21 16:35:25 | INFO | harmonycast.app | Client connected id=862639cc-6ff3-458a-aa7b-47368ab2dde5 ip=25.4.68.162
+2025-09-21 16:35:29 | INFO | harmonycast.app | Client 862639cc-6ff3-458a-aa7b-47368ab2dde5 disconnected
+2025-09-21 16:35:29 | INFO | harmonycast.listeners | Client disconnected id=862639cc-6ff3-458a-aa7b-47368ab2dde5 ip=25.4.68.162
+2025-09-21 16:35:30 | INFO | harmonycast.app | Client connected id=0275c664-6873-4b11-9eb6-3a997c8618a8 ip=25.4.68.162
+2025-09-21 16:35:51 | INFO | harmonycast.app | Fetching metadata for video_id=-z77ikRecGI
+2025-09-21 16:35:52 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=False position=0.00 volume=80
+2025-09-21 16:35:53 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=False position=0.00 volume=80
+2025-09-21 16:35:54 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=0.00 volume=80
+2025-09-21 16:35:54 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=0.10 volume=80
+2025-09-21 16:35:56 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=1.29 volume=80
+2025-09-21 16:35:57 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=2.31 volume=80
+2025-09-21 16:35:58 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=3.33 volume=80
+2025-09-21 16:35:59 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=4.35 volume=80
+2025-09-21 16:36:00 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=5.37 volume=80
+2025-09-21 16:36:01 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=6.40 volume=80
+2025-09-21 16:36:02 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7.43 volume=80
+2025-09-21 16:36:03 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=8.48 volume=80
+2025-09-21 16:36:04 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=9.49 volume=80
+2025-09-21 16:36:05 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=10.54 volume=80
+2025-09-21 16:36:05 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=False position=11.18 volume=80
+2025-09-21 17:20:40 | INFO | harmonycast.app | Client 0275c664-6873-4b11-9eb6-3a997c8618a8 disconnected
+2025-09-21 17:20:40 | INFO | harmonycast.listeners | Client disconnected id=0275c664-6873-4b11-9eb6-3a997c8618a8 ip=25.4.68.162
+2025-09-21 17:22:11 | INFO | harmonycast.app | Host f65e4299-8755-4608-8929-e70a3e86f655 disconnected
+2025-09-21 17:22:11 | INFO | harmonycast.listeners | Host disconnected id=f65e4299-8755-4608-8929-e70a3e86f655 ip=25.4.68.162
+2025-09-21 17:22:11 | INFO | harmonycast.app | Host connected id=c1849c0c-9812-43bb-8501-d0bfa5bdde4a ip=25.4.68.162
+2025-09-21 17:22:34 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=11.18 volume=80
+2025-09-21 17:22:35 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=11.54 volume=80
+2025-09-21 17:22:36 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=12.59 volume=80
+2025-09-21 17:22:37 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=13.63 volume=80
+2025-09-21 17:22:38 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=14.64 volume=80
+2025-09-21 17:22:39 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=15.69 volume=80
+2025-09-21 17:22:40 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=16.69 volume=80
+2025-09-21 17:22:41 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=17.73 volume=80
+2025-09-21 17:22:42 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=18.75 volume=80
+2025-09-21 17:22:43 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=19.75 volume=80
+2025-09-21 17:22:44 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=20.78 volume=80
+2025-09-21 17:22:45 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=21.89 volume=80
+2025-09-21 17:22:46 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=22.90 volume=80
+2025-09-21 17:22:47 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=23.90 volume=80
+2025-09-21 17:22:48 | INFO | harmonycast.app | Client connected id=339b3d95-e797-4821-8aec-fb9e2cfdb81e ip=25.4.68.162
+2025-09-21 17:22:48 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=24.92 volume=80
+2025-09-21 17:22:49 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=25.92 volume=80
+2025-09-21 17:22:51 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=27.33 volume=80
+2025-09-21 17:22:52 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=28.36 volume=80
+2025-09-21 17:22:52 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=28.54 volume=80
+2025-09-21 17:22:52 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=False position=28.98 volume=80
+2025-09-21 17:22:53 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=False position=28.97 volume=80
+2025-09-21 17:22:55 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=False position=28.97 volume=80
+2025-09-21 17:22:56 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=28.97 volume=80
+2025-09-21 17:22:57 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=29.75 volume=80
+2025-09-21 17:22:58 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=30.99 volume=80
+2025-09-21 17:22:59 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=32.04 volume=80
+2025-09-21 17:23:00 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=False position=32.67 volume=80
+2025-09-21 17:23:00 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=32.65 volume=80
+2025-09-21 17:23:01 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=33.43 volume=80
+2025-09-21 17:23:02 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=34.55 volume=80
+2025-09-21 17:23:03 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7084.81 volume=80
+2025-09-21 17:23:03 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7084.81 volume=80
+2025-09-21 17:23:05 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7085.74 volume=80
+2025-09-21 17:23:06 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7086.77 volume=80
+2025-09-21 17:23:07 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7087.78 volume=80
+2025-09-21 17:23:09 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7089.39 volume=80
+2025-09-21 17:23:10 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7090.52 volume=80
+2025-09-21 17:23:11 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7091.36 volume=80
+2025-09-21 17:23:12 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7092.49 volume=80
+2025-09-21 17:23:13 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7093.34 volume=80
+2025-09-21 17:23:14 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7094.47 volume=80
+2025-09-21 17:23:15 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7095.60 volume=80
+2025-09-21 17:23:16 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7096.48 volume=80
+2025-09-21 17:23:17 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7097.62 volume=80
+2025-09-21 17:23:18 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7098.45 volume=80
+2025-09-21 17:23:19 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7099.55 volume=80
+2025-09-21 17:23:20 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7100.60 volume=80
+2025-09-21 17:23:21 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7101.44 volume=80
+2025-09-21 17:23:22 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7102.56 volume=80
+2025-09-21 17:23:23 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7103.74 volume=80
+2025-09-21 17:23:24 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7104.59 volume=80
+2025-09-21 17:23:25 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7105.71 volume=80
+2025-09-21 17:23:26 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7106.53 volume=80
+2025-09-21 17:23:27 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7107.50 volume=80
+2025-09-21 17:23:28 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7108.63 volume=80
+2025-09-21 17:23:30 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7110.58 volume=80
+2025-09-21 17:23:31 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7111.71 volume=80
+2025-09-21 17:23:32 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7112.56 volume=80
+2025-09-21 17:23:33 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7113.66 volume=80
+2025-09-21 17:23:34 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7114.76 volume=80
+2025-09-21 17:23:35 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7115.58 volume=80
+2025-09-21 17:23:36 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7116.70 volume=80
+2025-09-21 17:23:37 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7117.83 volume=80
+2025-09-21 17:23:38 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7118.68 volume=80
+2025-09-21 17:23:39 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7119.81 volume=80
+2025-09-21 17:23:40 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7120.66 volume=80
+2025-09-21 17:23:41 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7121.77 volume=80
+2025-09-21 17:23:42 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7122.87 volume=80
+2025-09-21 17:23:43 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7123.72 volume=80
+2025-09-21 17:23:44 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7124.83 volume=80
+2025-09-21 17:23:45 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7125.68 volume=80
+2025-09-21 17:23:46 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7126.79 volume=80
+2025-09-21 17:23:47 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7127.92 volume=80
+2025-09-21 17:23:49 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7129.88 volume=80
+2025-09-21 17:23:50 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7130.73 volume=80
+2025-09-21 17:23:51 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7131.82 volume=80
+2025-09-21 17:23:52 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7132.92 volume=80
+2025-09-21 17:23:53 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7133.77 volume=80
+2025-09-21 17:23:54 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7134.90 volume=80
+2025-09-21 17:23:55 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7135.74 volume=80
+2025-09-21 17:23:56 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7136.87 volume=80
+2025-09-21 17:23:57 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7138.01 volume=80
+2025-09-21 17:23:58 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7138.87 volume=80
+2025-09-21 17:23:59 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7139.99 volume=80
+2025-09-21 17:24:01 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7141.96 volume=80
+2025-09-21 17:24:02 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7142.82 volume=80
+2025-09-21 17:24:03 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7143.95 volume=80
+2025-09-21 17:24:04 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7144.78 volume=80
+2025-09-21 17:24:05 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7145.87 volume=80
+2025-09-21 17:24:06 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7146.98 volume=80
+2025-09-21 17:24:07 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7147.84 volume=80
+2025-09-21 17:24:08 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7148.94 volume=80
+2025-09-21 17:24:08 | INFO | harmonycast.app | Client connected id=4e1bc45f-7f0f-4356-8d84-ae9332b97c63 ip=25.4.68.162
+2025-09-21 17:24:09 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7150.08 volume=80
+2025-09-21 17:24:10 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7151.01 volume=80
+2025-09-21 17:24:11 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7151.94 volume=80
+2025-09-21 17:24:12 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7153.08 volume=80
+2025-09-21 17:24:13 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7153.94 volume=80
+2025-09-21 17:24:14 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7155.07 volume=80
+2025-09-21 17:24:15 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7156.18 volume=80
+2025-09-21 17:24:16 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7157.00 volume=80
+2025-09-21 17:24:17 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7158.10 volume=80
+2025-09-21 17:24:18 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7159.21 volume=80
+2025-09-21 17:24:19 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7160.07 volume=80
+2025-09-21 17:24:20 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7161.19 volume=80
+2025-09-21 17:24:22 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7163.15 volume=80
+2025-09-21 17:24:23 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7164.25 volume=80
+2025-09-21 17:24:24 | INFO | harmonycast.app | Host c1849c0c-9812-43bb-8501-d0bfa5bdde4a disconnected
+2025-09-21 17:24:24 | INFO | harmonycast.listeners | Host disconnected id=c1849c0c-9812-43bb-8501-d0bfa5bdde4a ip=25.4.68.162
+2025-09-21 17:24:24 | INFO | harmonycast.app | Client 339b3d95-e797-4821-8aec-fb9e2cfdb81e disconnected
+2025-09-21 17:24:24 | INFO | harmonycast.listeners | Client disconnected id=339b3d95-e797-4821-8aec-fb9e2cfdb81e ip=25.4.68.162
+2025-09-21 17:24:31 | INFO | harmonycast.app | Client 4e1bc45f-7f0f-4356-8d84-ae9332b97c63 disconnected
+2025-09-21 17:24:31 | INFO | harmonycast.listeners | Client disconnected id=4e1bc45f-7f0f-4356-8d84-ae9332b97c63 ip=25.4.68.162
+2025-09-21 17:24:31 | INFO | harmonycast.app | Host connected id=a0760120-c91f-41ea-b539-ef0a95ea6401 ip=25.4.68.162
+2025-09-21 17:24:40 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7171.85 volume=80
+2025-09-21 17:24:41 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7172.54 volume=80
+2025-09-21 17:24:42 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7173.59 volume=80
+2025-09-21 17:24:43 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7174.59 volume=80
+2025-09-21 17:24:45 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7175.83 volume=80
+2025-09-21 17:24:46 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7176.84 volume=80
+2025-09-21 17:24:47 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7178.09 volume=80
+2025-09-21 17:24:48 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7179.09 volume=80
+2025-09-21 17:24:49 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7180.33 volume=80
+2025-09-21 17:24:50 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7181.34 volume=80
+2025-09-21 17:24:51 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7182.58 volume=80
+2025-09-21 17:24:52 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7183.59 volume=80
+2025-09-21 17:24:53 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7184.59 volume=80
+2025-09-21 17:24:55 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7185.83 volume=80
+2025-09-21 17:24:56 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7187.08 volume=80
+2025-09-21 17:24:57 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7188.09 volume=80
+2025-09-21 17:24:58 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7189.33 volume=80
+2025-09-21 17:24:59 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7190.58 volume=80
+2025-09-21 17:25:00 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7191.59 volume=80
+2025-09-21 17:25:02 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7192.83 volume=80
+2025-09-21 17:25:03 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7193.84 volume=80
+2025-09-21 17:25:04 | INFO | harmonycast.app | Broadcasting host update video_id=-z77ikRecGI playing=True position=7195.08 volume=80
+2025-09-21 17:25:04 | INFO | harmonycast.app | Host a0760120-c91f-41ea-b539-ef0a95ea6401 disconnected
+2025-09-21 17:25:04 | INFO | harmonycast.listeners | Host disconnected id=a0760120-c91f-41ea-b539-ef0a95ea6401 ip=25.4.68.162
+2025-09-21 17:25:04 | INFO | harmonycast.app | FastAPI shutdown event triggered
+2025-09-21 17:25:04 | INFO | harmonycast.listeners | Listener snapshot task cancelled
+2025-09-21 17:25:04 | INFO | harmonycast.app | Shutdown complete

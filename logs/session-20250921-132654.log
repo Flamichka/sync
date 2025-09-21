@@ -1,0 +1,22 @@
+2025-09-21 13:26:54 | INFO | app.core.logging_config | Logging initialised. Session file: logs\session-20250921-132654.log
+2025-09-21 13:26:54 | INFO | harmonycast.app | Application startup. Logging to logs\session-20250921-132654.log
+2025-09-21 13:26:54 | INFO | harmonycast.app | FastAPI startup event triggered
+2025-09-21 13:26:54 | INFO | harmonycast.listeners | Listener snapshot task started interval=3.0s
+2025-09-21 13:26:54 | INFO | harmonycast.app | Client connected id=6eb7a9b6-d3df-4dc6-8c35-0de98045e93a ip=25.9.64.206
+2025-09-21 13:26:58 | INFO | harmonycast.app | Client connected id=9b962c68-2f09-4e66-ab16-5e14431e3a8a ip=25.4.68.162
+2025-09-21 13:27:02 | INFO | harmonycast.app | Client connected id=d2726520-94d4-49f8-b29d-2ef3740e1429 ip=25.40.58.241
+2025-09-21 13:27:23 | INFO | harmonycast.app | Client connected id=f0263653-c414-4795-bacf-36f93b8d1fc7 ip=25.4.68.162
+2025-09-21 13:27:26 | INFO | harmonycast.app | Client f0263653-c414-4795-bacf-36f93b8d1fc7 disconnected
+2025-09-21 13:27:26 | INFO | harmonycast.listeners | Client disconnected id=f0263653-c414-4795-bacf-36f93b8d1fc7 ip=25.4.68.162
+2025-09-21 13:27:26 | INFO | harmonycast.app | Client connected id=262fff33-31f6-407c-837a-f32d71190144 ip=25.4.68.162
+2025-09-21 13:27:57 | INFO | harmonycast.app | Client d2726520-94d4-49f8-b29d-2ef3740e1429 disconnected
+2025-09-21 13:27:57 | INFO | harmonycast.listeners | Client disconnected id=d2726520-94d4-49f8-b29d-2ef3740e1429 ip=25.40.58.241
+2025-09-21 13:27:57 | INFO | harmonycast.app | Client 262fff33-31f6-407c-837a-f32d71190144 disconnected
+2025-09-21 13:27:57 | INFO | harmonycast.listeners | Client disconnected id=262fff33-31f6-407c-837a-f32d71190144 ip=25.4.68.162
+2025-09-21 13:27:57 | INFO | harmonycast.app | Client 6eb7a9b6-d3df-4dc6-8c35-0de98045e93a disconnected
+2025-09-21 13:27:57 | INFO | harmonycast.listeners | Client disconnected id=6eb7a9b6-d3df-4dc6-8c35-0de98045e93a ip=25.9.64.206
+2025-09-21 13:27:57 | INFO | harmonycast.app | Client 9b962c68-2f09-4e66-ab16-5e14431e3a8a disconnected
+2025-09-21 13:27:57 | INFO | harmonycast.listeners | Client disconnected id=9b962c68-2f09-4e66-ab16-5e14431e3a8a ip=25.4.68.162
+2025-09-21 13:27:57 | INFO | harmonycast.app | FastAPI shutdown event triggered
+2025-09-21 13:27:57 | INFO | harmonycast.listeners | Listener snapshot task cancelled
+2025-09-21 13:27:57 | INFO | harmonycast.app | Shutdown complete

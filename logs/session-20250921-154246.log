@@ -1,0 +1,44 @@
+2025-09-21 15:42:46 | INFO | app.core.logging_config | Logging initialised. Session file: logs\session-20250921-154246.log
+2025-09-21 15:42:46 | INFO | harmonycast.app | Application startup. Logging to logs\session-20250921-154246.log
+2025-09-21 15:42:46 | INFO | harmonycast.app | FastAPI startup event triggered
+2025-09-21 15:42:46 | INFO | harmonycast.listeners | Listener snapshot task started interval=3.0s
+2025-09-21 15:42:46 | INFO | harmonycast.app | Host connected id=29590c73-cc6b-4dbe-8d4d-5acd7af96e2e ip=25.4.68.162
+2025-09-21 15:42:52 | INFO | harmonycast.app | Client connected id=b9b8660e-eebf-4624-b203-3d4675d0a918 ip=25.4.68.162
+2025-09-21 15:43:18 | INFO | harmonycast.app | Host 29590c73-cc6b-4dbe-8d4d-5acd7af96e2e disconnected
+2025-09-21 15:43:18 | INFO | harmonycast.listeners | Host disconnected id=29590c73-cc6b-4dbe-8d4d-5acd7af96e2e ip=25.4.68.162
+2025-09-21 15:43:18 | INFO | harmonycast.app | Host connected id=71aac130-dd41-4dd0-8fb8-e5d6dbafa85f ip=25.4.68.162
+2025-09-21 15:44:04 | INFO | harmonycast.app | Client b9b8660e-eebf-4624-b203-3d4675d0a918 disconnected
+2025-09-21 15:44:04 | INFO | harmonycast.listeners | Client disconnected id=b9b8660e-eebf-4624-b203-3d4675d0a918 ip=25.4.68.162
+2025-09-21 15:44:04 | INFO | harmonycast.app | Client connected id=28d03c75-5b8c-4ed3-ac57-7302dbd25368 ip=25.4.68.162
+2025-09-21 15:44:15 | INFO | harmonycast.app | Fetching metadata for video_id=dQw4w9WgXcQ
+2025-09-21 15:44:16 | INFO | harmonycast.app | Broadcasting host update video_id=dQw4w9WgXcQ playing=False position=0.00 volume=80
+2025-09-21 15:44:17 | INFO | harmonycast.app | Broadcasting host update video_id=dQw4w9WgXcQ playing=False position=0.00 volume=80
+2025-09-21 15:44:39 | INFO | harmonycast.app | Fetching metadata for video_id=8tilKaOINmE
+2025-09-21 15:44:40 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=False position=0.00 volume=80
+2025-09-21 15:44:40 | INFO | harmonycast.app | Fetching metadata for video_id=8tilKaOINmE
+2025-09-21 15:44:41 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=False position=0.00 volume=80
+2025-09-21 15:44:41 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=False position=0.00 volume=80
+2025-09-21 15:44:42 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=False position=0.00 volume=80
+2025-09-21 15:44:45 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=0.00 volume=80
+2025-09-21 15:44:45 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=0.07 volume=80
+2025-09-21 15:44:46 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=1.13 volume=80
+2025-09-21 15:44:48 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=3.09 volume=80
+2025-09-21 15:44:49 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=4.09 volume=80
+2025-09-21 15:44:50 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=5.09 volume=80
+2025-09-21 15:44:51 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=6.14 volume=80
+2025-09-21 15:44:52 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=7.17 volume=80
+2025-09-21 15:44:54 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=8.19 volume=80
+2025-09-21 15:44:55 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=9.22 volume=80
+2025-09-21 15:44:56 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=10.23 volume=80
+2025-09-21 15:44:57 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=11.27 volume=80
+2025-09-21 15:44:58 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=12.30 volume=80
+2025-09-21 15:44:59 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=13.32 volume=80
+2025-09-21 15:45:00 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=True position=14.34 volume=80
+2025-09-21 15:45:00 | INFO | harmonycast.app | Broadcasting host update video_id=8tilKaOINmE playing=False position=14.70 volume=80
+2025-09-21 15:47:26 | INFO | harmonycast.app | Client 28d03c75-5b8c-4ed3-ac57-7302dbd25368 disconnected
+2025-09-21 15:47:26 | INFO | harmonycast.listeners | Client disconnected id=28d03c75-5b8c-4ed3-ac57-7302dbd25368 ip=25.4.68.162
+2025-09-21 15:47:26 | INFO | harmonycast.app | Host 71aac130-dd41-4dd0-8fb8-e5d6dbafa85f disconnected
+2025-09-21 15:47:26 | INFO | harmonycast.listeners | Host disconnected id=71aac130-dd41-4dd0-8fb8-e5d6dbafa85f ip=25.4.68.162
+2025-09-21 15:47:26 | INFO | harmonycast.app | FastAPI shutdown event triggered
+2025-09-21 15:47:26 | INFO | harmonycast.listeners | Listener snapshot task cancelled
+2025-09-21 15:47:26 | INFO | harmonycast.app | Shutdown complete
